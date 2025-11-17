@@ -13,7 +13,7 @@
 
 *让服务器监控变得优雅而直观*
 
-[English](README_EN.md) | 简体中文 | [演示预览](#) | [快速开始](#-快速开始)
+[English](README_EN.md) | 简体中文 | [演示预览](https://stat.reia.fans/) | [快速开始](#-快速开始)
 
 </div>
 
@@ -270,5 +270,6 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 [![GitHub stars](https://img.shields.io/github/stars/your-username/komari-glass-vision-pro?style=social)](https://github.com/your-username/komari-glass-vision-pro/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/your-username/komari-glass-vision-pro?style=social)](https://github.com/your-username/komari-glass-vision-pro/network)
+
 
 </div>
