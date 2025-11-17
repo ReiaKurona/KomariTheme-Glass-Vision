@@ -1,0 +1,39 @@
+{
+  "name": "Liquid Glass iOS 26",
+  "short": "LiquidGlass",
+  "description": "A modern theme inspired by iOS 26 liquid glass design with advanced visual effects",
+  "version": "1.3.2",
+  "author": "Komari Theme Developer",
+  "url": "https://github.com/komari-monitor/komari",
+  "preview": "preview.png",
+  "configuration": {
+    "type": "managed",
+    "icon": "/themes/LiquidGlass/dist/assets/theme-icon.svg",
+    "name": "液态玻璃主题设置",
+    "data": [
+      { "name": "外观设置", "type": "title" },
+      { "key": "theme_color", "name": "主题颜色", "type": "select", "options": "蓝色,紫色,绿色,橙色,粉色,青色", "default": "蓝色", "help": "选择主题的主要颜色" },
+      { "key": "glass_opacity", "name": "玻璃透明度", "type": "number", "default": 20, "help": "调整玻璃卡片的透明度 (0-100)" },
+      { "key": "glass_blur", "name": "玻璃模糊度", "type": "number", "default": 16, "help": "调整玻璃效果的模糊程度 (0-100)" },
+      { "key": "card_radius", "name": "卡片圆角大小", "type": "number", "default": 24, "help": "调整卡片的圆角大小 (8-40)" },
+      
+      { "name": "背景设置", "type": "title" },
+      { "key": "bg_desktop_url", "name": "桌面端背景图片", "type": "string", "help": "桌面端背景图片的URL链接" },
+      { "key": "bg_mobile_url", "name": "移动端背景图片", "type": "string", "help": "移动端背景图片的URL链接" },
+      { "key": "bg_alignment", "name": "背景对齐方式", "type": "select", "options": "居中,拉伸,平铺,顶部,底部", "default": "居中", "help": "背景图片的对齐方式" },
+      
+      { "name": "布局设置", "type": "title" },
+      { "key": "default_view_mode", "name": "默认视图模式", "type": "select", "options": "网格,紧凑,表格", "default": "网格", "help": "页面加载时的默认视图模式" },
+      { "key": "enable_animations", "name": "启用动画效果", "type": "switch", "default": true, "help": "是否启用液态玻璃动画效果" },
+      { "key": "performance_mode", "name": "性能优化模式", "type": "switch", "default": false, "help": "启用后将减少动画效果以提升性能" },
+      
+      { "name": "外观模式", "type": "title" },
+      { "key": "appearance_mode", "name": "外观模式", "type": "select", "options": "跟随系统,浅色模式,暗黑模式", "default": "跟随系统", "help": "选择界面的外观模式" },
+      
+      { "name": "全局统计", "type": "title" },
+      { "key": "show_global_speed", "name": "显示全局网速", "type": "switch", "default": true, "help": "在顶栏显示所有服务器的网速总和" },
+      { "key": "show_global_traffic", "name": "显示全局流量", "type": "switch", "default": true, "help": "在顶栏显示所有服务器的流量总和" },
+      { "key": "speed_unit", "name": "网速单位", "type": "select", "options": "MB/s,Mbps", "default": "MB/s", "help": "选择网速显示单位" }
+    ]
+  }
+}
