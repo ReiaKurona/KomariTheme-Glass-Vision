@@ -10,7 +10,7 @@
 ![Mobile](https://img.shields.io/badge/mobile-optimized-ff69b4.svg)
 
  - 注意：由于在制作过程中源码不慎丢失，所以这个项目是从我最后一个已经编译成功的的发布版本里面反编译回去的🫠，所以不一定能通过代码编译回原项目。但是可以通过下载本项目中的**dist**文件夹和**komari-theme.json**并将他们打包到一起上传到komari管理后台中仍可使用。至于源码嘛...只能再研究研究恢复了喵...
-🌟 **专业级 Komari 监控面板主题** - ~~完美还原~~ Apple Liquid Glass 液态玻璃美学
+##🌟 **专业级 Komari 监控面板主题** - ~~完美还原~~ Apple Liquid Glass 液态玻璃美学
 
 *让服务器监控变得优雅而直观*
 
@@ -274,4 +274,5 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 
 </div>
+
 
